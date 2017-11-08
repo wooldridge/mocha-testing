@@ -28,4 +28,4 @@ If mocha is installed globally:
 
 or
 
-`mocha test/test.js -grep 'should check the platform'`
+`mocha test/test.js --grep 'should check the platform'`
