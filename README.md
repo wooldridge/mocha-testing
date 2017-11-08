@@ -22,7 +22,7 @@ or
 
 `npm test test/test.js`
 
-or, if mocha is installed globally:
+If mocha is installed globally:
 
 `mocha test/test.js`
 
