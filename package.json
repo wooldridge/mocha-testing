@@ -1,0 +1,16 @@
+{
+  "name": "mocha-testing",
+  "version": "1.0.0",
+  "description": "Using the Mocha framework to test JavaScript.",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mike Wooldridge",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "marklogic": "^2.0.3",
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
+}
