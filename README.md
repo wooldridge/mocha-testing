@@ -4,26 +4,28 @@ This project demonstrates how to run test JavaScript code with the [mocha](https
 
 ## Setup
 
-1. From the project directory, install the dependencies:
+From the project directory, install the dependencies:
 
-  `npm install`
+`npm install`
 
-  You can also install mocha globally:
+You can also install mocha globally:
 
-  `npm install --global mocha`
+`npm install --global mocha`
 
-2. Run tests with mocha:
+## Run Tests
 
-  `npm test`
+Run tests with mocha:
 
-  or
+`npm test`
 
-  `npm test test/test.js`
+or
 
-  or, if mocha is installed globally:
+`npm test test/test.js`
 
-  `mocha test/test.js`
+or, if mocha is installed globally:
 
-  or
+`mocha test/test.js`
 
-  `mocha test/test.js -grep 'should check the platform'`
+or
+
+`mocha test/test.js -grep 'should check the platform'`
