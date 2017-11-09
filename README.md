@@ -2,17 +2,33 @@
 
 This project demonstrates how to test JavaScript code with the [mocha](https://mochajs.org/) testing framework and several assertion libraries, [assert](https://mochajs.org/), [should](https://shouldjs.github.io/), and [chai](http://chaijs.com/).
 
+## Requirements
+
+Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (project developed with Node.js version 6.3.1).
+
+To check:
+```
+node --version
+npm --version
+```
 ## Setup
 
+Clone the project to your local environment:
+
+`git clone https://github.com/wooldridge/mocha-testing.git`
+
 From the project directory, install the dependencies:
-
-`npm install`
-
+```
+cd mocha-testing
+npm install
+```
 You can also install mocha globally:
 
 `npm install --global mocha`
 
-## Run Tests
+## Running Tests
+
+The example tests are mostly in a [single file](https://github.com/wooldridge/mocha-testing/blob/master/test/test.js) and test some Node.js core functions and [MarkLogic Node.js Client API](https://github.com/marklogic/node-client-api) methods.
 
 Run tests with mocha:
 
