@@ -4,7 +4,7 @@ This project demonstrates how to test JavaScript code with the [mocha](https://m
 
 ## Requirements
 
-Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (project developed with Node.js version 6.3.1).
+Requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (project developed with Node.js version 6.3.1).
 
 To check:
 ```
