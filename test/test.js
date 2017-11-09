@@ -50,7 +50,7 @@ describe('node client', function() {
   it('should read a document', function(done) {
     db.documents.read(uri)
     .result(function(response) {
-      assert.ok(response);
+      assert.equal(response[0].content.foo, 321);
       done();
       })
     .catch(done);
@@ -60,7 +60,7 @@ describe('node client', function() {
 // Test with the should assertion library
 describe('node client', function() {
   it('should read the "debug" server property', function(done) {
-    //this.timeout(5000);
+    this.timeout(5000);
     db.config.serverprops.read()
     .result(function(response) {
       response.should.have.property('debug');
@@ -82,7 +82,7 @@ describe('node client', function() {
   });
 });
 
-// Test for an expected error
+// Test for an expected asychronous error
 describe('node client', function() {
   it('should return an error if read without a URI', function(done) {
     try {
