@@ -17,7 +17,7 @@ Clone the project to your local environment:
 
 `git clone https://github.com/wooldridge/mocha-testing.git`
 
-From the project directory, install the dependencies:
+From the project directory, install the dependencies (defined in [package.json](https://github.com/wooldridge/mocha-testing/blob/master/package.json)):
 ```
 cd mocha-testing
 npm install
