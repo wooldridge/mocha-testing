@@ -1,4 +1,6 @@
-const os = require('os'),
+'use strict';
+
+const os     = require('os'),
       assert = require('chai').assert,
       expect = require('chai').expect,
       should = require('chai').should();

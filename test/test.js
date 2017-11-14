@@ -1,18 +1,20 @@
-const os = require('os'),
-      fs = require('fs'),
+'use strict';
+
+const os        = require('os'),
+      fs        = require('fs'),
       marklogic = require('marklogic'),
-      assert = require('assert'),
-      expect = require('chai').expect,
-      should = require('chai').should();
+      assert    = require('assert'), // part of Node.js core
+      expect    = require('chai').expect,
+      should    = require('chai').should();
 
 // First test
-describe('use assertion library', function() {
+describe('first test', function() {
   it('multiplying 2 by 3 should give 6', function() {
     assert.equal(2 * 3, 6);
   });
 });
 
-// Test a synchronous method (using an assertion library)
+// Test a synchronous method
 describe('os', function() {
   it('should check the platform', function() {
     assert.ok(os.platform());

@@ -1,4 +1,6 @@
-const fs = require('fs'),
+'use strict';
+
+const fs     = require('fs'),
       assert = require('assert');
 
 describe('fs', function() {
