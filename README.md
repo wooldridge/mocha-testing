@@ -1,6 +1,6 @@
 # Testing JavaScript with Mocha
 
-This project demonstrates how to test JavaScript code with the [mocha](https://mochajs.org/) testing framework and several assertion libraries, [assert](https://nodejs.org/api/assert.html), [should](https://shouldjs.github.io/), and [chai](http://chaijs.com/).
+This project demonstrates how to test JavaScript code with the [mocha](https://mochajs.org/) testing framework and the assertion libraries [assert](https://nodejs.org/api/assert.html) and [chai](http://chaijs.com/).
 
 ## Requirements
 
