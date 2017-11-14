@@ -2,10 +2,17 @@ const os = require('os'),
       fs = require('fs'),
       marklogic = require('marklogic'),
       assert = require('assert'),
-      should = require('should'),
-      expect = require('chai').expect;
+      expect = require('chai').expect,
+      should = require('chai').should();
 
-// Test a synchronous method
+// First test
+describe('use assertion library', function() {
+  it('multiplying 2 by 3 should give 6', function() {
+    assert.equal(2 * 3, 6);
+  });
+});
+
+// Test a synchronous method (using an assertion library)
 describe('os', function() {
   it('should check the platform', function() {
     assert.ok(os.platform());
@@ -57,7 +64,7 @@ describe('node client', function() {
   });
 });
 
-// Test with the should assertion library
+// Test with the chai assertion library, should style
 describe('node client', function() {
   it('should read the "debug" server property', function(done) {
     this.timeout(5000);
@@ -70,7 +77,7 @@ describe('node client', function() {
   });
 });
 
-// Test with the chai assertion library
+// Test with the chai assertion library, expect style
 describe('node client', function() {
   it('should check for the server property object', function(done) {
     db.config.serverprops.read()
